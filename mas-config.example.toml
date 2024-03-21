@@ -19,7 +19,7 @@ action_mode = "sequential_all"
     # 触发事件设置
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "白刃"
+    param = "<STYL MOJI_WHITE_DEFAULT><SIZE 25>黑龙歼灭刀已解放不屈白刃！"
 
 # ========== 太刀黄刃 ==========
 [[trigger]]
@@ -31,7 +31,7 @@ action_mode = "sequential_all"
 
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "黄刃"
+    param = "<STYL MOJI_YELLOW_DEFAULT><SIZE 30>黑龙歼灭刀已解放华贵黄刃！"
 
 
 # ========== 太刀红刃 ==========
@@ -44,7 +44,7 @@ action_mode = "sequential_all"
 
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "红刃"
+    param = "<STYL MOJI_RED_DEFAULT><SIZE 40>黑龙歼灭刀已解放至尊红刃！"
 
 
 # ========== 太刀进入任务 ==========
@@ -59,7 +59,7 @@ action_mode = "sequential_all"
 
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "太刀加入游戏"
+    param = "<STYL MOJI_RED_DEFAULT><SIZE 30>都让开！黑龙歼灭刀大人要下来开刃了！"
 
 
 # ========== 太刀登龙动作 ==========
@@ -74,13 +74,13 @@ action_mode = "random"
 
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "登龙随机1"
+    param = "<STYL MOJI_GREEN_DEFAULT><SIZE 30>都让开，太刀侠准备登龙了！"
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "登龙随机2"
+    param = "<STYL MOJI_GREEN_DEFAULT><SIZE 30>太刀尊将进行一次从天而降的打击！"
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "登龙随机3"
+    param = "<STYL MOJI_GREEN_DEFAULT><SIZE 30>红刃就绪，登龙准备！"
 
 
 # ========== 太刀居合动作 ==========
@@ -95,10 +95,10 @@ action_mode = "random"
 
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "居合随机1"
+    param = "<STYL MOJI_GREEN_DEFAULT><SIZE 30>居合，爽！"
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "居合随机2"
+    param = "<STYL MOJI_GREEN_DEFAULT><SIZE 30>纳！居！"
 
 
 # ========== 虫棍进入任务 ==========
@@ -253,7 +253,7 @@ action_mode = "sequential_all"
 
     [[trigger.action]]
     cmd = "SendChatMessage"
-    param = "使用了回避衣装"
+    param = "<STYL MOJI_GREEN_DEFAULT><SIZE 30>回避衣装启动！"
 
 
 # 开发中/计划开发
